@@ -13,7 +13,7 @@ function johnLennonFacts(facts){
   var i = 0
   while (i < facts.length){
   var string = facts[i]
-  var newString += "!!!";
+  var newString = string + "!!!";
   facts[i] = newString;
   i += 1;
   }
